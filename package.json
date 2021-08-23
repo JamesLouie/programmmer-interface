@@ -1,0 +1,27 @@
+{
+  "name": "programmmer-interface",
+  "version": "1.0.0",
+  "description": "The programmer interface is a codified template for how we should behave. The interface focuses on outcomes and goals, where it is up to the developer to find the solution that best fits those goals.",
+  "main": "index.ts",
+  "dependencies": {
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.1"
+  },
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesLouie/programmmer-interface.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesLouie/programmmer-interface/issues"
+  },
+  "homepage": "https://github.com/JamesLouie/programmmer-interface#readme"
+}
